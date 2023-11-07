@@ -30,19 +30,6 @@
                 margin: 4px 2px;
                 cursor: pointer;
             }
-            .videoWrapper {
-                position: relative;
-                padding-bottom: 56.25%; /* 16:9 */
-                padding-top: 25px;
-                height: 0;
-            }
-            .videoWrapper embed {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
         </style>
         <center>
             <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">OurVBuddyWebsite</h1>
@@ -51,8 +38,8 @@
     </head>
     <body background="images/BG.png">
         <center>
-            <h2>se o video n estiver carregando consulte a pagina de ajuda</h2>
-            <object class="Embed">
+            <h2>se a tela não estiver carregando consulte a pagina de ajuda</h2>
+            <object width="1024" height="576">
                 <param name="movie" value="WebsitePage.swf">
                 <embed src="WebsitePage.swf" width="1280" height="720"></embed>
             </object>
