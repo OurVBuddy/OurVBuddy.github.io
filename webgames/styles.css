@@ -28,13 +28,3 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-.gameSection {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-.gameOption {
-    max-width: fit-content;
-    cursor: pointer;
-    padding: 5px 5px;
-}
