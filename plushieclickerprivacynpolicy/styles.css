@@ -1,5 +1,5 @@
 .backgroundStyle {
-    background-image: url(../assets/bg.png); 
+    background-image: url(assets/bg.png); 
     background-size: cover;
 }
 .headerText {
@@ -28,6 +28,9 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+.backgroundStyle2 {
+    background-image: url(../assets/elevbg.png); 
+}
 .gameSection {
     max-width: fit-content;
     margin-left: auto;
@@ -35,8 +38,6 @@
 }
 .gameOption {
     max-width: fit-content;
-    border-radius: 2%;
     cursor: pointer;
-    border-color: black;
-    background-color: white;
+    padding: 5px 5px;
 }

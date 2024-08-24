@@ -28,3 +28,28 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+.backgroundStyle2 {
+    background-image: url(../assets/elevbg.png); 
+}
+.gameSection {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gameOption {
+    max-width: fit-content;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+.video {
+    min-width: 10%;
+    max-height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flashapp {
+    min-width: 10%;
+    max-height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
